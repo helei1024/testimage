@@ -21,6 +21,8 @@ public class Test {
         System.out.println("主线master 添加 commit1");
         
         System.out.println("github add commmit1");
+
+        System.out.println("master commit2");
         File jpegFile = new File("D:/cap_images/IMG_00000650.jpg");
         Metadata meta = JpegMetadataReader.readMetadata(jpegFile);
         GpsDirectory gps = meta.getFirstDirectoryOfType(GpsDirectory.class);
