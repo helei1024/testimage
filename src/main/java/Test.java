@@ -18,6 +18,7 @@ public class Test {
     public static void main(String[] args) throws Exception {
 
         System.out.println("分支dev commit1");
+        System.out.println("主线master 添加 commit1");
         File jpegFile = new File("D:/cap_images/IMG_00000650.jpg");
         Metadata meta = JpegMetadataReader.readMetadata(jpegFile);
         GpsDirectory gps = meta.getFirstDirectoryOfType(GpsDirectory.class);
